@@ -1,45 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="JDT LS PDE Target Definition" sequenceNumber="105">
+<?pde version="3.8"?><target name="Java Language Server Target Definition" sequenceNumber="119">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.mockito.mockito-all" version="1.9.5"/>
-<repository location="http://download.eclipse.org/scout/releases/4.0/testing"/>
+<unit id="org.jboss.tools.maven.apt.feature.feature.group" version="1.5.0.201805160042"/>
+<repository location="http://download.jboss.org/jbosstools/updates/m2e-extensions/m2e-apt/1.5.0-2018-05-16_00-46-30-H11"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.buildship.feature.group" version="2.1.2.v20170807-1324"/>
-<unit id="org.eclipse.equinox.core.feature.feature.group" version="1.4.1.v20170928-1321"/>
-<unit id="org.eclipse.equinox.core.sdk.feature.group" version="3.13.1.v20170928-1321"/>
-<unit id="org.eclipse.equinox.executable.feature.group" version="3.7.1.v20170928-1359"/>
-<unit id="org.eclipse.equinox.p2.core.feature.source.feature.group" version="1.4.1.v20170928-1405"/>
-<unit id="org.eclipse.equinox.p2.discovery.feature.feature.group" version="1.1.1.v20170906-1259"/>
-<unit id="org.eclipse.equinox.p2.rcp.feature.feature.group" version="1.3.1.v20170928-1405"/>
-<unit id="org.eclipse.equinox.sdk.feature.group" version="3.13.1.v20170928-1405"/>
-<unit id="org.eclipse.jdt.source.feature.group" version="3.13.1.v20171009-0410"/>
-<unit id="org.eclipse.sdk.feature.group" version="4.7.1.v20171009-0537"/>
-<unit id="org.eclipse.xtend.sdk.feature.group" version="2.12.0.v20170519-1412"/>
-<unit id="org.eclipse.xtext.sdk.feature.group" version="2.12.0.v20170519-1412"/>
-<repository location="http://download.eclipse.org/releases/oxygen"/>
+<unit id="org.eclipse.lsp4j.sdk.feature.group" version="0.4.0.v20180425-1137"/>
+<repository location="http://download.eclipse.org/lsp4j/updates/releases/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="com.google.gson" version="2.7.0.v20170129-0911"/>
-<unit id="com.google.gson.source" version="2.7.0.v20170129-0911"/>
-<unit id="com.ibm.icu.base" version="58.2.0.v20170418-1837"/>
-<unit id="org.apache.commons.io" version="2.2.0.v201405211200"/>
-<unit id="org.apache.commons.lang3" version="3.1.0.v201403281430"/>
-<unit id="org.apache.log4j" version="1.2.15.v201012070815"/>
-<repository location="http://download.eclipse.org/tools/orbit/R-builds/R20170516192513/repository"/>
+<unit id="org.eclipse.equinox.core.feature.feature.group" version="1.5.0.v20180502-1828"/>
+<unit id="org.eclipse.equinox.core.sdk.feature.group" version="3.14.0.v20180502-1828"/>
+<unit id="org.eclipse.equinox.executable.feature.group" version="3.8.0.v20180504-1554"/>
+<unit id="org.eclipse.equinox.p2.core.feature.source.feature.group" version="1.5.0.v20180502-1819"/>
+<unit id="org.eclipse.equinox.sdk.feature.group" version="3.14.0.v20180508-1121"/>
+<unit id="org.eclipse.jdt.source.feature.group" version="3.14.0.v20180509-2000"/>
+<unit id="org.eclipse.sdk.feature.group" version="4.8.0.v20180509-2000"/>
+<repository location="http://download.eclipse.org/eclipse/updates/4.8milestones/S-4.8M7-201805092000/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.lsp4j.sdk.feature.group" version="0.3.0.v20170913-0640"/>
-<repository location="http://download.eclipse.org/lsp4j/updates/releases/0.3.0/"/>
+<unit id="org.eclipse.xtend.sdk.feature.group" version="2.13.0.v20171020-0920"/>
+<unit id="org.eclipse.xtext.sdk.feature.group" version="2.13.0.v20171020-0920"/>
+<repository location="http://download.eclipse.org/releases/photon/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.m2e.feature.feature.group" version="1.8.2.20171007-0217"/>
-<repository location="http://download.eclipse.org/technology/m2e/releases/1.8/"/>
-</location>
-<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.jdt.ls.core" version="0.7.0.201711020443"/>
-<unit id="org.eclipse.jdt.ls.core.source" version="0.7.0.201711020443"/>
+<unit id="org.eclipse.jdt.ls.core" version="0.20.0.201805230915"/>
 <repository location="http://download.eclipse.org/jdtls/snapshots/repository/latest/"/>
 </location>
 </locations>

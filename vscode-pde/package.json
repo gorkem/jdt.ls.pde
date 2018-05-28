@@ -46,10 +46,10 @@
       "./server/org.eclipse.team.core_3.8.100.v20170516-0820.jar",
       "./server/org.eclipse.equinox.p2.repository.tools_2.1.400.v20170511-1216.jar",
       "./server/org.eclipse.equinox.p2.core_2.4.101.v20170906-1259.jar",
-      "./server/org.eclipse.pde.core_3.11.100.v20170517-0724.jar",
+      "./server/org.eclipse.pde.core_3.11.101.v20171228-1230.jar",
       "./server/org.eclipse.equinox.p2.touchpoint.natives_1.2.200.v20170511-1216.jar",
       "./server/org.eclipse.equinox.p2.touchpoint.eclipse_2.1.501.v20170906-1259.jar",
-      "./server/org.eclipse.jdt.ls.importer.pde_1.0.0.20171101-2108.jar"
+      "./server/org.eclipse.jdt.ls.importer.pde_1.0.0.20180528-0505.jar"
     ]
   },
   "scripts": {
@@ -73,6 +73,5 @@
     "typescript": "^2.0.3",
     "vscode": "^1.1.5"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
